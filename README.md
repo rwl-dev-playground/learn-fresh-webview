@@ -1,10 +1,10 @@
-# Learn Repo Template
+# Learn Fresh Webview
 
 ## 本リポジトリの目的
-練習用リポジトリを目的や達成目標を持って実施できるようにするため
+DenoとFreshでデスクトップアプリを作成する
 
 ## 本リポジトリの達成目標
-このテンプレートリポジトリを使って練習用リポジトリを作成されるようになる
+- [ ] deno_webviewでFreshが起動する
 
 ## 参考資料
-- 特になし
+- [webview_deno/examples/ssr/main.ts at main · webview/webview_deno · GitHub](https://github.com/webview/webview_deno/blob/main/examples/ssr/main.ts)
