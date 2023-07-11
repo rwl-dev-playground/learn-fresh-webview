@@ -4,7 +4,7 @@
     "start": "deno run -A --watch=static/,routes/ dev.ts",
     "update": "deno run -A -r https://fresh.deno.dev/update .",
     "webview": "deno run -A --unstable webview.ts",
-    "compile:windows": "deno compile -A --unstable --target x86_64-pc-windows-msvc webview.ts"
+    "compile:windows": "deno compile -A --unstable --target x86_64-pc-windows-msvc --include main.ts webview.ts"
   },
   "imports": {
     "$fresh/": "https://deno.land/x/fresh@1.2.0/",
